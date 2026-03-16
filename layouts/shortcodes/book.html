@@ -1,0 +1,14 @@
+<div style="display: flex; gap: 20px; background: #f9f9f9; padding: 15px; border-radius: 10px; border: 1px solid #ddd; margin-bottom: 20px; align-items: flex-start;">
+    
+    <div style="flex-shrink: 0;">
+        <img src="{{ .Get "img" }}" alt="Обложка" style="width: 150px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
+
+    <div style="flex-grow: 1; font-family: sans-serif;">
+        <h2 style="margin-top: 0; color: #2c3e50;">{{ .Get "title" }}</h2>
+        <p><strong>Автор:</strong> {{ .Get "author" }}</p>
+        <p><strong>Год:</strong> {{ .Get "year" }}</p>
+        <hr style="border: 0; border-top: 1px solid #eee;">
+        <p style="font-style: italic; color: #555;">{{ .Get "descr" }}</p>
+    </div>
+</div>

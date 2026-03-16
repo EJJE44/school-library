@@ -1,0 +1,11 @@
+baseURL = 'https://EJJE44.github.io/'
+languageCode = 'ru-ru'
+title = 'Школьная Библиотека'
+theme = 'hugo-book'
+
+[params]
+  # Включает поиск по сайту (очень важно для библиотеки!)
+  BookSearch = true
+  # Разрешает HTML в markdown (полезно для вставок таблиц)
+  BookComments = false
+
