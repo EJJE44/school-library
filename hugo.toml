@@ -1,4 +1,4 @@
-baseURL = 'https://EJJE44.github.io/'
+baseURL = 'https://EJJE44.github.io/school-library/'
 languageCode = 'ru-ru'
 title = 'Школьная Библиотека'
 theme = 'hugo-book'
