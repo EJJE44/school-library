@@ -1,6 +1,7 @@
 baseURL = 'https://EJJE44.github.io/school-library/'
 languageCode = 'ru-ru'
-title = 'Школьная Библиотека'
+title = 'Школьная Библиотека
+(часть художественной литературы)'
 theme = 'hugo-book'
 
 [params]
